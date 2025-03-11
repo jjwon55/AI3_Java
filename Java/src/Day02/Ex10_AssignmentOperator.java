@@ -2,7 +2,7 @@ package Day02;
 
 import java.util.Scanner;
 
-public class Ex10_AssiginmentOperartor {
+public class Ex10_AssignmentOperator {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -17,6 +17,7 @@ public class Ex10_AssiginmentOperartor {
 		System.out.print("z : ");
 		int z = sc.nextInt();
 		
+		// 합계, 평균
 		int sum = x + y + z;
 		double avg =  sum / 3;
 		//(double) = (int) / (int)
@@ -33,7 +34,8 @@ public class Ex10_AssiginmentOperartor {
 		
 		System.out.println("평균1 : " + realAvg1);
 		System.out.println("평균2 : " + realAvg2);
-		//avg 평균변수가 정수형 이라서 소수부분을 
+		//avg 평균변수가 정수형 이라서 소수부분을 표현할 수가 없다
+		// 평균을 소수점까지 표현하기 위해서는 실수형(double)로 변환해야한다.
 		
 		sc.close();
 		

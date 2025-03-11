@@ -6,9 +6,11 @@ import java.util.Scanner;
 public class Ex09_Circle {
 
 		public static void main(String[] args) {
-			//final 상수 선언
+			// 상수
+			// 프로그램 실행 동안 값을 변경하지 않고 사용할 값
+			// 상수 선언시 반드시 값을 초기화 해야 한다.
 			// 선언 후에 값을 변경하면 에러가 발생한다.
-			// 반드시 값을 초기화 해야 한다.
+			//final 상수 선언
 			final double PI = 3.141592;
 			Scanner sc =  new Scanner(System.in);
 			

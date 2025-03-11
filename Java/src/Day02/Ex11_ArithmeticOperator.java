@@ -1,10 +1,10 @@
 package Day02;
 
-public class Ex11_ArithmetOperator {
+public class Ex11_ArithmeticOperator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
+		// 산술연산자
 		System.out.println(10 + 5);
 		System.out.println(8 - 3);
 		System.out.println(5 * 4);

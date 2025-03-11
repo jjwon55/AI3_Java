@@ -3,7 +3,6 @@ package Day02;
 public class Ex15_TernaryOperator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		int a = 3, b = 5;  
 		

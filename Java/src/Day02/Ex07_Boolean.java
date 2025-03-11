@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Ex07_Boolean {
 	
 	public static void main(String[] args) {
-	
+	// boolean 
+	// : true(참), false(거짓) 논리값만 가지는 자료형
 		
 	boolean cheak1 = false;
 	boolean cheak2 = true;
