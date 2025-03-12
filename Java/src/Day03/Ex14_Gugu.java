@@ -16,7 +16,7 @@ public class Ex14_Gugu {
 		int input = sc.nextInt();
 		
 		for (int i = 1; i <=9 ; i++) {
-			System.out.println(input + "*" + i + "=" + (input*i));
+			System.out.println(input + "*" + i +"=" + (input*i));
 		}
 		sc.close();
 	}

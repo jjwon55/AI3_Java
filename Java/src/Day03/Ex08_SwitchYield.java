@@ -10,9 +10,12 @@ public class Ex08_SwitchYield {
 		int num = sc.nextInt();
 		
 		String result = switch (num % 5) {
-			case 0, 1 -> "*";
+		// 반환값만 지정하는 경우, yield 생략하고 -> 사용가능
+			case 0, 1 -> "*"; //yield 생략
 			default -> {
 				System.out.println("별 2개");
+				// 블록의 실행문이 여러 줄이 경우 yield 필수
+				// yield 반환값;
 			yield "**";
 			}
 		};

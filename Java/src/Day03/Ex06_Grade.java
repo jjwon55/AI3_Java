@@ -11,7 +11,7 @@ public class Ex06_Grade {
 		System.out.print("학점 : ");
 		//string 문자열 참조 자료형
 		String grade = sc.next();
-		//문자, 정,수 문자열은 switch  문의 조건ㅇ으로 가능
+		//문자, 정수, 문자열은 switch  문의 조건값으로 가능
 		//실수 (float double) 조건값으로 불가능
 		switch (grade) {
 		case "A": System.out.println("90~100점입니다."); break;

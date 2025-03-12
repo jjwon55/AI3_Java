@@ -10,10 +10,10 @@ public class Ex11_OddEven {
 		
 		while ( a <= 20) {
 			if( a % 2 == 1 )
-				sum1 = sum1 + a;
+				sum1 += a++;
 			if( a % 2 == 0 )
-				sum2 = sum2 + a;
-			a++;
+				sum2 += a++;
+			
 		}
 			
 			System.out.println("홀수의 합계 : " + sum1);
