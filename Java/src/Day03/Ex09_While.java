@@ -5,7 +5,7 @@ public class Ex09_While {
 	public static void main(String[] args) {
 		int a = 1;
 		
-		//while (조건) 반복 실행문
+		//while (조건) {반복 실행문}
 		//반복문에는 반드시 종료조건이 성립하도록 작성해야한다.
 		//종료조건이 만족하지 않으면, 무한 루프에 빠진다.
 		while ( a <= 10 ) {
@@ -18,3 +18,4 @@ public class Ex09_While {
 		}
 	}
 }
+

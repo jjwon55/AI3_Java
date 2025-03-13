@@ -8,8 +8,22 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("");
 		int a = sc.nextInt();
-		char b = sc.ne
-		int z = sc.nextInt();
+		String x = sc.next();
+		int b = sc.nextInt();
 		
+		switch (x) {
+		case "+": System.out.print( a + b);
+		break;
+		case "/": 
+			if (a == 0 || b == 0) { break;
+			} else System.out.print( a / b);
+		break;
+		case "-": System.out.print( a - b);
+		break;
+		case "*": System.out.print( a * b);
+		break;
+		default:
+			break;
+		}
 	}
 }

@@ -18,8 +18,11 @@ public class Ex12_DoWhile {
 			System.out.println("5. 닭가슴살볶음밥 - 도시락");
 			System.out.println("0. 종료");
 			System.out.print("메뉴 번호 : ");
-			
+			//메뉴번호를 입력
 			menuNo = sc.nextInt();
+			
+			//break 제어문을 탈출하는 키워드
+			// 가장 가까운 제어문만 탈출한다.
 			if( menuNo == 0 ) break;
 			
 			switch (menuNo) {
@@ -38,7 +41,6 @@ public class Ex12_DoWhile {
 			}
 				System.out.println();
 			
-			System.out.println();
 		} while (menuNo != 0 );
 		
 		System.out.println( count + "개의 메뉴를 주문하였습니다.");
