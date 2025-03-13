@@ -1,4 +1,4 @@
-package _1149;
+package _1231;
 
 import java.util.Scanner;
 
@@ -8,14 +8,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("");
 		int a = sc.nextInt();
-		int b = sc.nextInt();
+		char b = sc.ne
+		int z = sc.nextInt();
 		
-		if (a > b) {
-			System.out.println(a);
-		}
-			else {
-				System.out.println(b);
-			
-		}
 	}
 }
