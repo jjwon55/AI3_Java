@@ -8,7 +8,7 @@ public class Ex09_String {
 		
 		//문자열 사용 방법
 		// 문자열과 리터럴"" 로 지정
-		// 문자열 객채 생겅
+		// 문자열 객채 생성
 		
 		
 			String a = "Hello"; 

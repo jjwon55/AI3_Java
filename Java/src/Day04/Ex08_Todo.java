@@ -25,11 +25,13 @@ enum Status {
 	ING("진행 중"),
 	DONE("완료");
 	
-	private final String status;
-
+	private final String status;    //상태의 값을 저장하는 상수
+	
+	//생성자를 통해 상수의 값을 설정
 	Status(String status) {
 		this.status = status;
 	}
+	//상태의 값을 반환하는 메소드
 	public String getValue() {	
 		return status;
 	}
@@ -41,7 +43,7 @@ class Todo {
 	
 	public Todo(String name) {
 		this.name = name;
-		this.status = Status.TODO;
+		this.status = Status.TODO;  		// 최초의 할일 상태는 TODO("시작 전")
 	}
 
 	public String getName() {
@@ -74,8 +76,8 @@ public class Ex08_Todo {
 	
 	
 	public static void main(String[] args) {
-		Todo[] todoList = new Todo[10];
-		int count = 0;
+		Todo[] todoList = new Todo[10];			// 최대 10개의 할일
+		int count = 0;							// 할일 개수
 		Scanner sc = new Scanner(System.in);
 		
 		
@@ -89,7 +91,8 @@ public class Ex08_Todo {
 			
 			
 			int menuNo = sc.nextInt();
-			sc.nextLine();
+			//Todo
+			sc.nextLine();			//남은 엔터제거
 			if (menuNo == 0) {
 				System.out.println("프로그램을 종료합니다.");
 				break;
@@ -112,15 +115,16 @@ public class Ex08_Todo {
 				System.out.print("할일 번호 : ");
 				int index = sc.nextInt() - 1;
 				sc.nextLine();
-				
+				// 변경 가능한 상태 출력
 				Status[] statusList = Status.values();
 				for (Status status : statusList) {
 					System.out.println((status.ordinal() + 1) + ". " + status.getValue() );
 				}
 				System.out.print("번호 : ");
+				// 변경할 상태 번호 입력
 				int statusNo = sc.nextInt();
 				sc.nextLine();
-				
+				// 상태 변경
 				Status updateStatus = statusList[statusNo-1];
 				todoList[index].setStatus(updateStatus);
 				System.out.println("작업상태를 " + updateStatus.getValue() + "(으/로 변경하였습니다.)");
