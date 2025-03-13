@@ -10,13 +10,14 @@ public class Main {
 		int a = sc.nextInt();
 		String x = sc.next();
 		int b = sc.nextInt();
+		double z = (double) a / b;
 		
 		switch (x) {
 		case "+": System.out.print( a + b);
 		break;
 		case "/": 
 			if (a == 0 || b == 0) { break;
-			} else System.out.print( a / b);
+			} else System.out.printf("%.2f", z );
 		break;
 		case "-": System.out.print( a - b);
 		break;
@@ -25,5 +26,6 @@ public class Main {
 		default:
 			break;
 		}
+		sc.close();
 	}
 }
