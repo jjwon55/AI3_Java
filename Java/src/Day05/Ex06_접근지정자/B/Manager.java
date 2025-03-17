@@ -6,9 +6,9 @@ public class Manager {
 		Student student = new Student()	;
 		student.defaultSetting();
 		System.out.println("name : " + student.name);
-		System.out.println("age : " + student.getAge);
-		System.out.println("height : " + student.getHeight);
-		System.out.println("weight : " + student.getWeight);
+		//System.out.println("age : " + student.getAge);
+		//System.out.println("height : " + student.getHeight);
+		//System.out.println("weight : " + student.getWeight);
 		System.out.println();
 	}
 }
