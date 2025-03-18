@@ -1,4 +1,4 @@
-package Day06.Ex02_이터페이스;
+package Day06.Ex02_인터페이스;
 
 // 클래스 상속하는 키워드 : extends
 // 인터페이스를 상속하는 키워드 : implements

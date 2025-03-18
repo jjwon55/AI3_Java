@@ -1,4 +1,4 @@
-package Day06.Ex02_이터페이스;
+package Day06.Ex02_인터페이스;
 
 public interface RemoteControl {
 
