@@ -19,7 +19,7 @@ public class CallByReference {
 			
 		}
 		
-		//객체를 전다받아 객체의 변수를 변경하는 메소드
+		//객체를 전달받아 객체의 변수를 변경하는 메소드
 		public static void setObject(Pikachu pikachu) {
 			pikachu.energy = 1000;
 			pikachu.type = "물";
