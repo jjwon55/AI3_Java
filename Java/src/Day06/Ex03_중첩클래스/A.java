@@ -8,7 +8,7 @@ package Day06.Ex03_중첩클래스;
 public class A {
 
 	int a, b;
-	
+	// 이너 클래스
 	class B {
 		int x, y;
 		
@@ -20,8 +20,8 @@ public class A {
 	}
 	public void aMethod() {
 		System.out.println("아우터 클래스에 이너 클래스의 멤버 접근 불가");
-		//System.out.println("B 의 x : " + x);
-		//System.out.println("B 의 y : " + y);
+		//에러 System.out.println("B 의 x : " + x);
+		//에러 System.out.println("B 의 y : " + y);
 	}
 	
 }

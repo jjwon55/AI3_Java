@@ -6,10 +6,10 @@ import java.text.MessageFormat;
 // public class 클래스명 implements 인터페이스a, b
 public class SmartTelevison implements SmartRemoteControl, Searchable {
 	
-	int voulme;
-	int channel;
-	String keyword;
-	int x, y;
+	int voulme;			//볼륨
+	int channel;		//채널
+	String keyword;		//검색어
+	int x, y;			//터치패드 좌표
 	
 	
 	

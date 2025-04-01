@@ -36,7 +36,8 @@ public class Ex06_Method {
 		
 		
 		
-		
+		// 메소드 호출 : 메소드명( 인자1, 인자2 );
+		// - 전달인자(argument)
 		System.out.println( plus(a, b));
 		System.out.println( minus(a, b));
 		sc.close();

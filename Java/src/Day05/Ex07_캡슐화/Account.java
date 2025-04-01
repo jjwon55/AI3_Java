@@ -15,12 +15,13 @@ public class Account {
 	private String depositor;
 	private String DepoNumber;
 	private String bank;
+	//기본 생성자
 	public Account() {
 		this(0, "예금주 없음", "000000-00-000000", "은행없음");
 	}
 	
 	
-	
+	//매개변수가 있는 생성자
 	public Account(int deposit, String depositor, String depoNumber, String bank) {
 		this.deposit = deposit;
 		this.depositor = depositor;
@@ -28,8 +29,7 @@ public class Account {
 		this.bank = bank;
 	}
 
-
-
+	//getter setter
 	public int getDeposit() {
 		return deposit;
 	}
@@ -55,6 +55,7 @@ public class Account {
 	public void setBank(String bank) {
 		this.bank = bank;
 	}
+	//toString
 	@Override
 	public String toString() {
 		return "Account [deposit=" + deposit + ", depositor=" + depositor + ", DepoNumber=" + DepoNumber + ", bank="

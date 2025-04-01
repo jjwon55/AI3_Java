@@ -24,6 +24,15 @@ public class Product {
 
 	public void setPrice(int price) {
 		this.price = price;
+		
+		
+		
+	}
+
+	//toString
+	@Override
+	public String toString() {
+		return "Product [name=" + name + ", price=" + price + "]";
 	}
 	
 }

@@ -1,7 +1,11 @@
 package Day08.Ex01_TryCatch;
 
 import java.util.Scanner;
-
+/**
+ * 예외 처리
+ * IndexOutOfBound
+ * : 배열이나 문자열의 index 를 벗어나는 경우 발생하는 예외
+ */
 public class IndexOutOfBound {
 
 	public static void main(String[] args) {

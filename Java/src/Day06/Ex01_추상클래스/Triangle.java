@@ -16,11 +16,14 @@ public class Triangle extends Shape {
 
 	@Override
 	double area() {
+		// 삼각형의 넓이 = (가로)x(세로)/2
 		return width * height / 2;
 	}
 
 	@Override
 	double round() {
+		// *정삼각형
+		// 삼각형의 둘레 = 3 * width
 		return 3 * width;
 	}
 	//getter,setter

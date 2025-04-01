@@ -5,7 +5,7 @@ public class Person {
 	String name;
 	int age;
 	
-	
+	//생성자
 	public Person() {
 		this("이름없음", 1);
 	}
@@ -15,11 +15,12 @@ public class Person {
 		this.name = name;
 		this.age = age;
 	}
+	//메소드
 	public String work() {
 		return "일을합니다.";
 	}
 
-
+	// getter, setter
 	public String getName() {
 		return name;
 	}
@@ -39,7 +40,7 @@ public class Person {
 		this.age = age;
 	}
 
-
+	// toString
 	@Override
 	public String toString() {
 		return "Person [name=" + name + ", age=" + age + "]";

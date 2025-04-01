@@ -10,9 +10,11 @@ public class Ex01_Multiple {
 		//3의 배수O 	: 3의 배수입니다
 		//      X	: 3의 배가 아닙니다
 		
+		// 1. 정수 입력
 		Scanner sc = new Scanner(System.in);
 		System.out.println("정수 : ");
 		int a = sc.nextInt();
+		// 2. 3의 배수인지 판단
 		if ( a % 3 == 0 ) {
 			System.out.println(" 3의 배수입니다. ");
 		} else {

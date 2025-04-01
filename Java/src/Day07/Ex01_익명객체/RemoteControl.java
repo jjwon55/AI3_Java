@@ -14,6 +14,9 @@ public interface RemoteControl {
 	void turnOff();
 	void setspeed(int speed);
 	
+	
+	// 디폴트 메소드
+	// : 구현한 객체가 오버라이딩하지 않아도 기본으로 사용할 수 있는 메소드
 	default void parking(boolean check) {
 		if (check) {
 			System.out.println("주차되었습니다.");

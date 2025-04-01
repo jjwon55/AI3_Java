@@ -20,7 +20,7 @@ public class BoxEx {
 		Pikachu pikachu = monsterBall.getT();
 		System.out.println("pikachu : " + pikachu);
 		
-		//Box<int> numberBox = new Box<int>();
+		//(에러)Box<int> numberBox = new Box<int>();
 		// 제네릭 기법의 타입으로는 참조자료형만 사용할 수 있다
 		// 기본 타입은 지정할 수 없다.
 		

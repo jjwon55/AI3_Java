@@ -1,5 +1,11 @@
 package Day08.Ex01_TryCatch;
-
+/**
+ * 예외 처리
+ * NumberFormatException
+ * : 문자열 숫자("10")가 아닌 문자열을 숫자타입으로 변환 시 발생하는 예외 상황
+ * ex) "10A"  --> 숫자로 변환하면 예외
+ *     "10"   --> 10
+ */
 public class NumberFormat {
 
 	public static void main(String[] args) {
@@ -23,7 +29,7 @@ public class NumberFormat {
 		System.out.println("numberString + 5 = " + (numberString + 5) );
 
 		int num2 = 0;
-		//예외 메시지 : 
+		//예외 메시지 : java.lang.NumberFormatException: For input string: "A10"
 		//예외 상황 : 문자열 숫자가 아닌 문자열을 숫자로 변환할 수 없기 때문에 예외 발생
 		try {
 			num2 = Integer.parseInt(numberAndString);
