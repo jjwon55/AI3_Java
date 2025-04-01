@@ -15,12 +15,13 @@ public class Rectangle extends Shape {
 
 	@Override
 	double area() {
-		
+		// 사각형의 넓이 = (가로) x (세로)
 		return width * height;
 	}
 
 	@Override
 	double round() {
+		// 사각형의 둘레 = 2 * (a+b)
 		return 2 * (width + height);
 		
 	}

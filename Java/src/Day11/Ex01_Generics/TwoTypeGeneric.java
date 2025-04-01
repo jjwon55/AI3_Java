@@ -23,7 +23,9 @@ public class TwoTypeGeneric {
 	public static void main(String[] args) {
 		//제네릭 객체생성 타입
 		//클래스타입<타입1, 타입2> 객체명 = new 클래스<타입1, 타입2>();
-		
+		// - 객체 생성하는 클래스명 뒤의 타입은 생략가능
+		// - new 클래스<>();
+		// KeyValue<String, Integer> kv = new KeyValue<String, Integer>();
 		
 		KeyValue<String, Integer> kv = new KeyValue<>();
 		kv.setKey("Java");

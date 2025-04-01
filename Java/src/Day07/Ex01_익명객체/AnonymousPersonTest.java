@@ -6,7 +6,7 @@ public class AnonymousPersonTest {
 		AnonymousPerson ap = new AnonymousPerson();
 		ap.method();
 		
-		
+		// 익명 자식 객체 생성
 		Person person = new Person() {
 			String name = "정우성";
 			int age = 50;

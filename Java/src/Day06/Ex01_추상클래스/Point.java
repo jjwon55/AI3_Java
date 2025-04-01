@@ -5,7 +5,7 @@ public class Point {
 	//멤버 변수
 	int x,y;
 
-	// alt + shift + s
+	// alt + shift + S -> Generate Constructor Using Field...
 	//기본 생성자
 	public Point() {
 		this(0, 0);
@@ -17,7 +17,7 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
-
+	// alt + shift + S -> Generate toString()...
 	//toString
 	@Override
 	public String toString() {

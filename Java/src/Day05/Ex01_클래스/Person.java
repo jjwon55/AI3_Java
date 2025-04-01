@@ -5,7 +5,7 @@ package Day05.Ex01_클래스;
 // 메소드 : 밥먹기 일하기
 public class Person {
 
-	String name; // 이름
+	String name; //이름
 	int age; //나이
 	
 	// 접근 지정자 (static) 반환타입 메소드명 (매개변수) {}

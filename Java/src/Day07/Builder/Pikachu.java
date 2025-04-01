@@ -52,10 +52,8 @@ public class Pikachu {
 			return new Pikachu(this);
 		}
 
-
-
 		
-	}
+	} // - Builder 클래스 끝
 	@Override
 	public String toString() {
 		return "Builder [energy=" + energy + ", type=" + type + ", level=" + level + "]";

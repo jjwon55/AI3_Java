@@ -71,7 +71,7 @@ public class LimitedTypeClass {
 		E<Integer> e1 = new E<Integer>();
 		E<Double> e2 = new E<Double>();
 		E<Byte> e3 = new E<Byte>();
-//		E<boolean> e4 = new E<Boolean>();
+		// (에러 : 숫자타입 아님) E<Boolean> e4 = new E<Boolean>();
 		
 		e1.setT(100);
 		System.out.println(e1.getT());

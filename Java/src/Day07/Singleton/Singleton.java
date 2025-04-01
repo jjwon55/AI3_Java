@@ -15,7 +15,7 @@ public class Singleton {
 	private Singleton() {
 		
 	}
-	//
+	// 유일한 인스턴스를 반환하는 메소드
 	public static Singleton getInstance() {
 		if ( instance == null )
 			instance = new Singleton();
