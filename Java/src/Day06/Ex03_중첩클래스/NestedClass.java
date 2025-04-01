@@ -19,7 +19,7 @@ public class NestedClass {
 		b.y = 40;
 		System.out.println("B의 x : " + b.x);
 		System.out.println("B의 y : " + b.y);
-		
+		b.bMethod();
 		
 		
 	}

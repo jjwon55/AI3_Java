@@ -31,7 +31,7 @@ public class X {
 		 int value1;
 		 static int value2;
 		 Z() {
-			 System.out.println("X 의 Y 객체 생성");
+			 System.out.println("X 의 Z 객체 생성");
 	 }
 		 void method1() {
 			 System.out.println("Z의 메소드");
@@ -49,7 +49,7 @@ public class X {
 				 int value;
 				 static int value2;
 				 L() {
-					 System.out.println("X 의 Y 객체 생성");
+					 System.out.println("L 객체 생성");
 			 }
 				 void method1() {
 					 System.out.println("L의 메소드");
