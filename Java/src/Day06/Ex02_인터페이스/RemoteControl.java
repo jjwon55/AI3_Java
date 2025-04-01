@@ -27,7 +27,7 @@ public interface RemoteControl {
 		}
 	}
 	//static 메소드
-	//구현 객체가 없어도 인터페이스만으롷고 호춯이 가능
+	//구현 객체가 없어도 인터페이스만으로도 호출이 가능
 	static void changeBattery() {
 		System.out.println("배터리를 교체합니다.");
 	}
